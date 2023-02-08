@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <!--This is my mission 5 stuff-->
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+
+    <!-- my personal css style, only did centering on the body -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+
+
+<body>
+    <nav>
+        <a asp-controller="Blah" asp-action="Index">Home</a>
+        <a asp-controller="Blah" asp-action="Form">Form</a>
+    </nav>
+    <div>
+        @RenderBody()
+    </div>
+
+
+    <script src="lib/bootstrap/jquery/jquery-3.6.3.min.js"></script>
+    <script src="js/mission4.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+</body>
+
+</html>
